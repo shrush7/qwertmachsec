@@ -9,9 +9,11 @@ export default function(output, _hist, ...args) {
             window.open('qwertmachsec@gmail.com');
             break;
         default:
-            output.innerHTML += `\
-<span data-color="green">Github: <a href="https://github.com/shrush7">@github</a></span>
-<span data-color="green">Email: <a>qwertmachsec@gmail.com</a></span>`;
+            output.innerHTML += `
+<span class="asdf"data-color="lime">github: <a href="https://github.com/shrush7"target="_blank">@github</a></span>
+<span class="asdf"data-color="lime">twitter: <a href="https://x.com/ShrushPatil"target="_blank">@twitter</a></span>
+<span class="asdf"data-color="lime">email: <a>qwertmachsec@gmail.com</a></span>
+`;
         return;
     }
 }

@@ -1,17 +1,17 @@
 export default function(output) {
     output.innerHTML += `
-    +--------------+        im a cybersec enthusiast doing my bachelors of engineering in ai and ds.
-    |.------------.|        
-    ||            ||        i like to participate in ctfs and i spend my free time coding and experimenting with new technologies.
+    +--------------+        this is a terminal based website that i created as a portfolio, blog and my personal corner of the internet.
+    |.------------.|        it showcases my projects, fields of interests and skills.
+    ||            ||        
     ||            || 
-    ||            ||        i am currently doing an internship in mosse cybersecurity institue.
+    ||            ||        
     ||            ||
-    |+------------+|        i am learning ethical-hacking, cryptography and forensics.
-    +-..--------..-+
-    .--------------.        i want to work on projects to intergrate ai and cybersecurity.
-   | |============| |
-  | |============= | |      i also like computer networks, linux and open source softwares.
- |____________________|
- |____________________|
+    |+------------+|        
+    +-..--------..-+__________________
+    .--------------.                __\\__
+   | |============| |              |__|__|
+  | |============= | |             |     |     
+ |____________________|            |     |
+ |____________________|            \\_____/
 `;
 }

@@ -1,4 +1,4 @@
 export default function(output) {
     output.innerHTML += `
-    blehblehbleh`;
+ coming soon.....`;
 }

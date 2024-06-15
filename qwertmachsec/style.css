@@ -4,29 +4,29 @@ input, label {
 }
 
 input {
-    caret-color: rgb(38, 251, 77);
+    caret-color: rgb(14,251,42);
 }
 
 label {
-    text-align: right;
+    text-align: left;
     white-space: normal;
 }
 
 * {
-  font-family: 'VT323';
-  font-weight: 300;
-  font-size: large;
+  font-family: 'Source code pro';
+  font-weight: 400;
+  font-size: medium;
   color-scheme: dark;
   cursor: text;
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(18, 18, 18);
     overflow-x: hidden;
 }
 
 *::selection {
-    background-color: #7aef6e;
+    background-color: #31602c;
     text-shadow: .1em .1em .5em #000;
 }
 
@@ -40,7 +40,7 @@ pre:not(.prompt) {
 }
 
 a {
-    color: inherit !important;
+    color: white;
 }
 
 a:hover {
@@ -56,9 +56,18 @@ p {
 .prompt {
     padding: 0;
     width: 100%;
-    display: grid;
+    display: flex;
     gap: 0.5em;
-    grid-template-columns: 8em 1fr;
+    align-items: center;
+}
+
+.prompt label {
+    flex: 0 0 8em;
+    text-align: right;
+}
+
+.prompt input {
+    flex: 1; 
 }
 
 .mobile {
@@ -72,4 +81,12 @@ p {
     .nomobile {
         display: none;
     }
+}
+.header{
+    text-shadow: 0 0 10px #a1dd9b;
+}
+.asdf{
+    text-shadow: 0 0 5px #a1dd9b;
+    font-weight: 300;
+
 }
