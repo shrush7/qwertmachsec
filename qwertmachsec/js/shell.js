@@ -1,18 +1,17 @@
 import { handle } from "./cmds.js";
 
-const msg = "hello visitor, welcome to qwert labs. this is my corner of the internet. feel free to look around...";
-const welcome = `<div class="nomobile">
-<span data-color="lime">
+const msg = `hello visitor, welcome to qwertlabs`;
+const welcome = `<div class="nomobile">feel free to look around....
+<span class="header" data-color="lime">
   ____                         _    __  __               _       _____             
  / __ \\                       | |  |  \\/  |             | |     / ____|                |    |  
 | |  | |__      __  ___  _ __ | |_ | \\  / |  __ _   ___ | |__  | (___    ___   ___      \\()/ 
 | |  | |\\ \\ /\\ / / / _ \\| '__|| __|| |\\/| | / _\` | / __|| '_ \\  \\___ \\  / _ \\ / __|    /(__)\\
 | |__| | \\ V  V / |  __/| |   | |_ | |  | || (_| || (__ | | | | ____) ||  __/| (__    |      |
  \\___\\_\\  \\_/\\_/   \\___||_|    \\__||_|  |_| \\__,_| \\___||_| |_||_____/  \\___| \\___|    |    |  
+</span><span data-color="grey">QwertMachSec (QMC) Not A Corporation. All knights reserved ©2024</span></div>
+type <span class="asdf" data-color="lime">help</span> for list of available commands
 
-                                                                                   
-</span></div>
-type <span data-color="lime">help</span> for list of available commands
 `;
 const sleep = (m) => new Promise((r) => setTimeout(r, m));
 const terminal = document.querySelector("pre");
@@ -22,7 +21,7 @@ let lastOutputEnd = 0; // Track where the last command output ended
 
 setTimeout(async () => {
   for (let i = 0; i < msg.length; i++) {
-    terminal.innerText += msg[i];
+    terminal.innerHTML += msg[i];
     await sleep(100);
   }
   terminal.innerHTML += welcome;
