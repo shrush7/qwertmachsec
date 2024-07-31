@@ -7,15 +7,10 @@ input {
     caret-color: rgb(14,251,42);
 }
 
-label {
-    text-align: left;
-    white-space: normal;
-}
-
 * {
   font-family: 'Source code pro';
   font-weight: 400;
-  font-size: medium;
+  font-size: small;
   color-scheme: dark;
   cursor: text;
 }
@@ -62,8 +57,8 @@ p {
 }
 
 .prompt label {
-    flex: 0 0 8em;
-    text-align: right;
+    flex: 0 0 10em;
+    text-align: left;
 }
 
 .prompt input {

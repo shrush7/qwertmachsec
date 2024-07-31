@@ -1,7 +1,7 @@
 export default function(output) {
     output.innerHTML += `
-    +--------------+        this is a terminal based website that i created as a portfolio, blog and my personal corner of the internet.
-    |.------------.|        it showcases my projects, fields of interests and skills.
+    +--------------+
+    |.------------.|        
     ||            ||        
     ||            || 
     ||            ||        
@@ -13,5 +13,7 @@ export default function(output) {
   | |============= | |             |     |     
  |____________________|            |     |
  |____________________|            \\_____/
-`;
+
+This is a terminal based website that i created as a portfolio, blog and my personal corner of the internet.
+It showcases my projects, fields of interests and skills.`;
 }
